@@ -1,0 +1,190 @@
+body{
+	background-color: #800000;
+	padding: 0px;
+	margin: 0px;
+	font: 15px arial, helvicaz, sans-serif;
+}
+
+.contenedor{
+	background-color: #000000;
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+
+.boton 1{
+	height: 38px 
+
+}
+
+
+/* Encabezado*/ 
+header{
+	background-color: #91A1A5; /* color gris claro*/
+    color: #FFF;
+    padding-top: 30px;
+    min-height: 70px;
+    border bottom: 5px solid #24282b;
+}
+
+header a{
+	color: #FFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+header li{
+	float: left; /* Que flote a un lado izquierdo*/
+	display: inline; /* Que todo este el linea*/
+	padding: 0 20px 0 20px /* Margenes izquierda, arriba, derecha, abajo*/
+
+}
+
+header #logo{
+	float: left;
+}
+
+header #logo h1{
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	margin-top: 20px;
+}
+
+header a:hover{
+	color: #585C61;
+	font-weight: bold; /* Resaltado con negrita al colocar el indicador*/
+}
+
+header .resaltado, header .actual a {
+	color: #ccc;
+	font-weight: bold;
+}
+
+/* Cabecera con imagen*/
+#cabecera{
+	background: url(../img/prin.jpg) no-repeat;
+	min-height: 200px;
+	text-align: center;
+	color: #FFF;
+}
+
+#cabecera h1{
+	margin-top: 100px;
+	color: white;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+
+#cabecera p{
+	font-size: 30px;
+
+}
+
+#boletin {
+	padding: 20px;
+	color: #FFF;
+	background: #24282b;
+}
+
+#boletin h1{
+	float: left;
+}
+
+#boletin form{
+	float: right;
+	margin-top: 15px;
+}
+
+#boletin input [type="email"]{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+
+#programas{
+	margin-top: 30px; /*margen superior al elemento*/
+	background: #FFF;
+
+}
+#contenedor .programa img{
+	float: right;
+	display: inline-block;
+}
+
+/*Cajas*/
+#programas .programa{
+	float: left;
+	text-align: center;
+	width: 34px;
+	padding: 50px;
+}
+
+#programas .programa img{
+	width: 170px;
+}
+#cajaz .cajita{
+	float: left;
+	text-align: center;
+	width: 14px;
+	padding: 80px;
+}
+
+#cajaz h3{
+	color: white;
+}
+
+#cajaz p{
+	color: white;
+}
+
+#programas h3{
+	color: white;
+}
+
+#programas p{
+	font-size: 18px;
+	color: white;
+}
+
+/*imagen final*/
+#imagenfinal{
+    padding-top: 0px;
+	background: red;
+	background: url(../img/prin1.jpg) no-repeat;
+	min-height: 100px;
+}
+.programa #imagenfinal{
+	padding-top: 0px;
+}
+#imagenfinal p,h1{
+	color: white;
+
+}
+
+#imagenfinal .contenedor hr{
+	color: red;
+	background: red;
+	min-height: 50px;
+	padding: 0px;
+	border-style: dashed red;
+	margin: 0px;
+	border: red;
+}
+/*footer*/
+footer{
+	padding: 10px;
+	margin-top: 20px;
+	color: #FFF;
+	text-align: center;
+	background-color: #800000;
+}

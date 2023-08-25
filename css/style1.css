@@ -1,0 +1,149 @@
+body{
+	background: #050505;
+	padding: 0px;
+	margin: 0px;
+}
+
+.contenedor{
+	background-color: #0774EF;
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+
+.boton 1{
+	height: 38px 
+
+}
+
+
+/* Encabezado*/ 
+header{
+	background-color: #0774EF; /* color gris claro*/
+    color: #FFF
+    padding-top: 30px;
+    min-height: 70px;
+    border bottom: 5px solid #0774EF;
+}
+
+header a{
+	color: #FFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+header li{
+	float: left; /* Que flote a un lado inado*/
+	display: inline; /* Que todo este el linea*/
+	padding: 0 20px 0 20px /* Margenes izquierda, arriba, derecha, abajo*/
+
+}
+
+header #logo{
+	float: left;
+}
+
+header #logo h1{
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+
+header a:hover{
+	color: #585C61;
+	font-weight: bold; /* Resaltado con negrita al colocar el indicador*/
+}
+
+header .resaltado, header .actual a {
+	color: #ccc;
+	font-weight: bold;
+}
+
+/* Cabecera con imagen*/
+#cabecera{
+	background: url(../img/prin.jpg) no-repeat;
+	min-height: 200px;
+	text-align: center;
+	color: #FFF;
+}
+
+#cabecera h1{
+	margin-top: 100px;
+	color: white;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+
+#cabecera p{
+	font-size: 30px;
+
+}
+
+#programas{
+	margin-top: 30px; /*margen superior al elemento*/
+	background: #FFF
+
+}
+
+/*Cajas*/
+#programas .programa{
+	float: center;
+	text-align: center;
+	width: 34px;
+	padding: 50px;
+}
+
+#programas .programa img{
+	width: 100px;
+}
+
+/*imagen final*/
+#imagenfinal{
+    padding-top: 0px;
+	background: red;
+	background: url(img/tienda.jpg) no-repeat;
+	min-height: 300px;
+}
+.programa #imagenfinal,{
+	padding-top: 5px;
+
+}
+#imagenfinal img{
+	border-radius: 100px;
+	border: 10px solid #0774EF;
+}
+#imagenfinal p{
+	color: white;
+	margin: 100px;
+	font-size: 30px;
+	font-family: Franklin Gothic;
+
+}
+
+#imagenfinal .contenedor hr{
+	color: red;
+	background: red;
+	min-height: 50px;
+	padding: 0px;
+	border-style: dashed red;
+	margin: 0px;
+	border: red;
+}
+/*footer*/
+footer{
+	padding: 10px;
+	margin-top: 20px;
+	color: #FFF;
+	text-align: center;
+	background-color: #0774EF;
+}
